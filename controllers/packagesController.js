@@ -1,5 +1,5 @@
 import { getOptimalCost } from '../helpers/packsHelper';
-import prodcuts from '../data/items';
+import prodcuts from '../data/items'; // acts as our database
 export const calculateCost = (req, res) => {
   const body = req.body; //input
   const orders = [];
@@ -14,15 +14,11 @@ export const calculateCost = (req, res) => {
       packsPrices
     );
 
-    //console.log(totalNumberOfPacks);
-    console.log(optimalPacks);
-    console.log(totalCost);
-
-    // const { totalCost, packs, error } = getOptimalCost(
-    //   packCode,
-    //   body[packCode]
-    // );
-    // orders.push({ status, totalCost, packs, error });
+    orders.push({
+      order: `${body[packCode]} ${packCode}`,
+      totalCost,
+      optimalPacks,
+    });
   }
   const responseObject = {
     Orders: orders,

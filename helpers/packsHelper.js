@@ -33,7 +33,7 @@ export const getOptimalCost = (packs, v, prices) => {
   for (let i = 0; i < packs.length; i++) {
     if (packsUsed[packs[i]] > 0) {
       optimalPacks.push({
-        pack: packs[i],
+        packLimit: packs[i],
         used: packsUsed[packs[i]],
         pricePerPack: prices[i],
       });
