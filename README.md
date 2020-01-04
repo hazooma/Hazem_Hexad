@@ -35,7 +35,7 @@ Example
 
 ```
 2. Output : the output is a json that contains the total cost and the optimal way to divide the amount into packs .
-Example output for the previoud Input 
+Example output for the previous Input 
 ```
 {
     "Orders": [
