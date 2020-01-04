@@ -1,0 +1,28 @@
+{
+  "VS5": {
+    "Name": "Vegemite Scroll",
+    "Code": "VS5",
+    "Packs": [
+      { "limit": 3, "price": 6.99 },
+      { "limit": 5, "price": 8.99 }
+    ]
+  },
+  "MB11": {
+    "Name": "Blueberry Muffin",
+    "Code": "MB11",
+    "Packs": [
+      { "limit": 2, "price": 9.95 },
+      { "limit": 5, "price": 16.95 },
+      { "limit": 8, "price": 24.95 }
+    ]
+  },
+  "CF": {
+    "Name": "Croissant",
+    "Code": "CF",
+    "Packs": [
+      { "limit": 3, "price": 5.95 },
+      { "limit": 5, "price": 9.95 },
+      { "limit": 9, "price": 16.99 }
+    ]
+  }
+}
