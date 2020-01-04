@@ -63,9 +63,5 @@ This means the totalCost: 25.85,and the packs used are 1 of pack that carries 3,
 - 1 x 3 $5.95
 
 **Solution**
-1. Change the server (`server/index.js`) so that the tracking data is
-split into multiple arrays (segments). Check Helper.locations_To_Segments function
-
-2. Adapt the front-end (`client/src/map_container.js`) so that the different
-segments are displayed on the map in a different style. For example use
-different colors for different segment.(Done )
+1. Solution Logic is using **Dynamic Programming** algorithm to find the minumum number of packs to form the desired target amount . 
+the magic is in the helper method .
