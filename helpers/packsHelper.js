@@ -1,9 +1,9 @@
 // Dynamic Programming Solution with CompleoptimalPacksity O(mV)
 const POSITIVE_INF = 10000000;
 export const getOptimalCost = (packs, v, prices) => {
-  const Memo = [];
-  const table = [];
-  const packsUsed = [];
+  const Memo = []; // save answer
+  const table = []; // dynamic programming array
+  const packsUsed = []; // save which packs used
   table[0] = 0;
   for (let i = 1; i <= v; i++) {
     table[i] = POSITIVE_INF;
