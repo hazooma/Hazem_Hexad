@@ -23,7 +23,7 @@ npm test
 
 
 # Environment -
-To run your query on the server , you should make post requests to `http://localhost:26062/calculateCost`
+To run your query on the server , you should make **post** requests to `http://localhost:26062/calculateCost`
 
 **Input/Output**
 1. Input : The body of the request is a json where the key is the code of the product and the value is the number of items .
