@@ -32,7 +32,33 @@ Example
 {
 	"CF":13
 }
+
 ```
+2. Output : the output is a json that contains the total cost and the optimal way to divide the amount into packs .
+Example output for the previoud Input 
+```
+{
+    "Orders": [
+        {
+            "order": "13 CF",
+            "totalCost": 25.85,
+            "optimalPacks": [
+                {
+                    "packLimit": 3,
+                    "used": 1,
+                    "pricePerPack": 5.95
+                },
+                {
+                    "packLimit": 5,
+                    "used": 2,
+                    "pricePerPack": 9.95
+                }
+            ]
+        }
+    ]
+}
+```
+
 **Solution**
 1. Change the server (`server/index.js`) so that the tracking data is
 split into multiple arrays (segments). Check Helper.locations_To_Segments function
