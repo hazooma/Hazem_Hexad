@@ -1,6 +1,7 @@
 import express from 'express';
 import { config } from 'dotenv';
 import bodyParser from 'body-parser';
+import routes from './routes';
 config();
 const app = express();
 let PORT;
@@ -9,14 +10,6 @@ if (process.env.NODE_ENV == 'test') {
 } else {
   PORT = process.env.PORT || 26062;
 }
-
-client.on('connect', () => {
-  console.log('Redis client connected');
-});
-
-client.on('error', err => {
-  console.log('Something went wrong ' + err);
-});
 
 app.use(bodyParser.json());
 // support parsing of application/x-www-form-urlencoded post data
