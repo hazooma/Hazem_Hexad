@@ -22,7 +22,7 @@ npm test
 ```
 
 
-# Task -
+# Environment -
 To run your query on the server , you should make post requests to `http://localhost:26062/calculateCost`
 
 **Input/Output**
