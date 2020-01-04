@@ -11,7 +11,7 @@ installed.
 To start the server go into the `server` directory and run
 ```
   npm install
-  node index.js
+  npm start
 ```
 To see whether the server works check <http://localhost:3000> and see if you
 get a JSON object with a example tracking data.
