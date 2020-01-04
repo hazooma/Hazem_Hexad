@@ -24,12 +24,8 @@ npm test
 
 # Task -
 **Input/Outpu**
-As you can see when clicking on the red line on the map the tracking data
-spans multiple days. It's unclear when a trip starts or ends. To give dispatchers
-a better overview over the trips the driver has taken in recent history it
-would be helpful to split the tracking data into trips and display them
-separatly on the map.
-
+To run your query on the server , you should make post requests to <http://localhost:26062/calculateCost>,
+-Input : The body of the request is a json where the key is the code of the product and the value is the number of items .
 **Solution**
 1. Change the server (`server/index.js`) so that the tracking data is
 split into multiple arrays (segments). Check Helper.locations_To_Segments function
