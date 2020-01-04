@@ -13,8 +13,8 @@ To start the server go into the `server` directory and run
   npm install
   npm start
 ```
-To see whether the server works check <http://localhost:3000> and see if you
-get a JSON object with a example tracking data.
+To see whether the server works check <http://localhost:26062> and see if you
+get `Hello World` message.
 
 To build the client go into the directory `client` and run
 ```
