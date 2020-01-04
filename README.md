@@ -23,9 +23,10 @@ npm test
 
 
 # Task -
-**Input/Outpu**
 To run your query on the server , you should make post requests to <http://localhost:26062/calculateCost>,
--Input : The body of the request is a json where the key is the code of the product and the value is the number of items .
+
+**Input/Output**
+1. Input : The body of the request is a json where the key is the code of the product and the value is the number of items .
 **Solution**
 1. Change the server (`server/index.js`) so that the tracking data is
 split into multiple arrays (segments). Check Helper.locations_To_Segments function
