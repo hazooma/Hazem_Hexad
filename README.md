@@ -16,16 +16,11 @@ To start the server go into the `server` directory and run
 To see whether the server works check <http://localhost:26062> and see if you
 get `Hello World` message.
 
-To build the client go into the directory `client` and run
+To run the tests go run
 ```
-npm install
-npm run start
+npm test
 ```
-Then the font-end should automatically open in your browser (localhost:8080). Make sure that
-the server is still running! Now you sould see a visual representation of the
-tracking data on a map.
 
-It should look like this: ![Screenshot](./screenshot.png)
 
 # Task 1 - Splitting data into segments
 **Motivation**
