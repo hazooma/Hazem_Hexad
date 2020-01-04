@@ -22,8 +22,8 @@ npm test
 ```
 
 
-# Task 1 - Splitting data into segments
-**Motivation**
+# Task -
+**Input/Outpu**
 As you can see when clicking on the red line on the map the tracking data
 spans multiple days. It's unclear when a trip starts or ends. To give dispatchers
 a better overview over the trips the driver has taken in recent history it
