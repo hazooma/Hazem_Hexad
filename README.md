@@ -58,6 +58,9 @@ Example output for the previoud Input
     ]
 }
 ```
+This means the totalCost: 25.85,and the packs used are 1 of pack that carries 3, and 2 of the packs that carries 5 .
+2 x 5 $9.95
+1 x 3 $5.95
 
 **Solution**
 1. Change the server (`server/index.js`) so that the tracking data is
